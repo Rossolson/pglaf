@@ -10,7 +10,9 @@
   <h1>{{ site.short_name }}</h1>
   <h2>{{ site.title | replace: ' ', ' <br>' }}</h2>
   <div class="content">
-    <h3>{{ page.title | default: 'Content' }}</h3>
+    {% if page.title %}
+    <h3>{{ page.title }}</h3>
+    {% endif %}
     {{ content }}
   </div>
 </body>
