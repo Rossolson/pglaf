@@ -8,7 +8,7 @@ The PGLAF foundation operates to support [Project Gutenberg](//www.gutenberg.org
 
 Donations can be made thru [PayPal](https://www.paypal.com/ncp/payment/9AU2L2958D5ZQ).
 
-Bank checks and money orders can be sent to:
+Checks and money orders can be sent to:
 
 <p class="address">Project Gutenberg Literary Archive Foundation<br>
 41 Watchung Plaza #516<br>
