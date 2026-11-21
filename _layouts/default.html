@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <h1>{{ site.short_name }}</h1>
+  <h2>{{ site.title | replace: ' ', ' <br>' }}</h2>
+  <div class="content">
+    <h3>{{ page.title | default: 'Content' }}</h3>
+    {{ content }}
+  </div>
+</body>
+</html>
